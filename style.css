@@ -679,7 +679,7 @@ footer {
         padding: 0 1rem; 
     }
     .logo {
-        
+        width: 100%;
     }
     .logo img {
         margin-left: -40px;
@@ -766,6 +766,9 @@ footer {
     .free-trail .trail-content h2 {
         font-size: 28px;
     }
+    .trail-bottom{
+      text-align: center;
+    }
     .footer-content {
         width: 100%;
         margin: 0 auto;
@@ -779,10 +782,11 @@ footer {
         grid-template-columns: 1fr 1fr;
         gap: 0.5rem;
     }
+    .footer-col{
+      text-align: center;
+    }
     .social-link a{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        text-align: center;
     }
     .footer-col h3{
         font-size: 20px;
